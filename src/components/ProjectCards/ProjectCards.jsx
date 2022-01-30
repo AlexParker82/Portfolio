@@ -3,16 +3,18 @@ import { Card, CardHeader, CardMedia, CardContent, Button, Link, Typography } fr
 
 const ProjectCard = (props) => {
     return (
-        <Card sx={{ padding: "5px", width: 400, height: "auto", margin: "10px", display: "flex", flexDirection: "column", alignItems: "center" }} >
+        <Card sx={{ height: "auto", display: "flex", flexDirection: "column" }} >
             <CardHeader
                 title={props.title}
                 subheader={props.technologies}
+                sx={{ textAlign: "center" }}
             />
             <CardMedia
                 component="img"
                 height="200"
                 width="200"
                 image={props.img}
+                sx={{ padding: "5px" }}
             />
             <CardContent sx={{ textAlign: "center" }}>
                 <Typography variant="body2">

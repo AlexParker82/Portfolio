@@ -3,17 +3,20 @@ import { Typography, Box } from "@mui/material";
 
 const About = () => {
     return (
-        <Box sx={{
-            backgroundColor: "rgba(255,255,255, 0.75)",
+        <Box component="section" sx={{
+            backgroundColor: "rgba(255,255,255, 0.5)",
             height: "auto",
             width: "75%",
-            marginTop: "10%",
+            marginTop: "5%",
+            marginRight: "auto",
+            marginLeft: "auto",
             display: "flex",
             flexDirection: "column",
-            alignItems: "center"
+            alignItems: "center",
+            borderRadius: "5px"
 
         }}>
-            <Typography variant="h3" sx={{ padding: "5px" }}>
+            <Typography variant="h4" sx={{ padding: "5px" }}>
                 About Me
             </Typography>
             <Typography variant="body1" sx={{
