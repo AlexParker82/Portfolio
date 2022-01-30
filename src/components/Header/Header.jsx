@@ -6,7 +6,7 @@ import Typed from "react-typed";
 const Header = () => {
 
     return (
-        <Box sx={{
+        <Box component="header" sx={{
             color: "white",
             position: "relative",
             width: "100vw",

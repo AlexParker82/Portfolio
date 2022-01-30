@@ -11,8 +11,6 @@ const ProjectCard = (props) => {
             />
             <CardMedia
                 component="img"
-                height="200"
-                width="200"
                 image={props.img}
                 sx={{ padding: "5px" }}
             />

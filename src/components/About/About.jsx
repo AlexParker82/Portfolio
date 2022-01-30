@@ -1,5 +1,6 @@
 import React from "react";
 import { Typography, Box } from "@mui/material";
+import Typed from "react-typed";
 
 const About = () => {
     return (
@@ -17,7 +18,7 @@ const About = () => {
 
         }}>
             <Typography variant="h4" sx={{ padding: "5px" }}>
-                About Me
+                <Typed strings={["About Me"]} typeSpeed={60} />
             </Typography>
             <Typography variant="body1" sx={{
                 paddingLeft: "10px",

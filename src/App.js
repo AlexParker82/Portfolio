@@ -13,10 +13,11 @@ const App = () => {
 
   useEffect(() => {
     document.body.style.backgroundImage = `url("./assets/images/coding.jpg")`;
+    document.body.style.backgroundColor = "black";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.width = "100vw";
-    document.body.style.height = "100vh";
+    document.body.style.height = "100%";
 
   }, [])
 
