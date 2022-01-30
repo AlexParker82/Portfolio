@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Description
-My Web Development Portfolio page.  Built with create-react-app and uses components and styling from Material UI.
+My Web Development Portfolio page.  Built with create-react-app and uses components and styling from Material UI.  It is a work in progress so apologies if you view it in an unfinished state 😁.
 
 ## Deployed URL
 https://alex-parker-portfolio.herokuapp.com/
