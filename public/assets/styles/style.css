@@ -8,3 +8,7 @@ a:hover {
     text-decoration: underline;
 
 }
+
+.MuiBreadcrumbs-separator {
+    color: white;
+}
