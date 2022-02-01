@@ -10,7 +10,7 @@ const Footer = () => {
                 marginRight: "auto",
             }}
         >
-            <Typography variant="body2" sx={{ color: "gray", textAlign: "center", marginTop: "20px" }}>Copyright © Alex Parker 2022</Typography>
+            <Typography variant="body2" sx={{ color: "gray", textAlign: "center", marginTop: "20px" }}>Alex Parker 2022</Typography>
         </Box>
     );
 }

@@ -18,7 +18,7 @@ const ProjectCard = (props) => {
                 <Typography variant="body2">
                     {props.description}
                 </Typography>
-                <Button >
+                <Button>
                    <Link href={props.repo}>Repo</Link>
                 </Button>
                 <Button>

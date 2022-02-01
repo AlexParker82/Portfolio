@@ -21,10 +21,10 @@ const Header = () => {
                     typeSpeed={60} />
             </Typography>
             <Breadcrumbs>
-                <Link to="/">Home</Link>
-                <Link to="/About">About</Link>
-                <Link to="/Projects">Projects</Link>
-                <a href="https://docs.google.com/document/d/1kiugY1WHRa2Lqv25Me61ixeibAI6rsm9e23KnnLl2OU/edit?usp=sharing" target="blank">Resume</a>
+                <Link className="bc" to="/">Home</Link>
+                <Link className="bc" to="/About">About</Link>
+                <Link className="bc" to="/Projects">Projects</Link>
+                <a className="bc" href="https://docs.google.com/document/d/1kiugY1WHRa2Lqv25Me61ixeibAI6rsm9e23KnnLl2OU/edit?usp=sharing" target="blank">Resume</a>
             </Breadcrumbs>
         </Box>
     );

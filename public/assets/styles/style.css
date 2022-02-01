@@ -1,9 +1,9 @@
-a {
+a.bc {
     text-decoration: none;
     color: gray;
 }
 
-a:hover {
+a.bc:hover {
     color: white;
     text-decoration: underline;
 
