@@ -18,7 +18,7 @@ const Home = () => {
             }}
         >
             <Typography variant="h4" sx={{ textAlign: "center" }}>
-                <Typed strings={["Welcome to my Portfolio Page"]} typeSpeed={60} />
+                Welcome to my Portfolio Page
             </Typography>
             <Typography variant="body1" sx={{ textAlign: "center", marginTop: "10px" }}>Here you can find some information about me, a few of the projects I have worked
                 on, and a link to my resume.  I hope you enjoy your time here! Contact me with any of these methods:
