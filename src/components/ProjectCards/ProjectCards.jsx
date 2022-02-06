@@ -7,9 +7,9 @@ const ProjectCard = (props) => {
             <CardHeader
                 title={props.title}
                 subheader={props.technologies}
-                sx={{ textAlign: "center", backgroundColor: "black", color: "white" }}
+                sx={{ textAlign: "center", backgroundColor: "black", color: "lightGray" }}
             />
-            <Grid container spacing={2}>
+            <Grid container spacing={0}>
                 <Grid item xs={12} md={6}>
                     <CardMedia
                         component="img"
