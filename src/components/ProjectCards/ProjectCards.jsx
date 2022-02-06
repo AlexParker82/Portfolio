@@ -1,30 +1,39 @@
 import React from "react";
-import { Card, CardHeader, CardMedia, CardContent, Button, Link, Typography } from "@mui/material";
+import { Card, CardHeader, CardMedia, CardContent, Button, Link, Typography, Grid } from "@mui/material";
 
 const ProjectCard = (props) => {
     return (
-        <Card sx={{ height: "auto", display: "flex", flexDirection: "column" }} >
+        <Card sx={{ height: "auto", width: "75%", marginLeft: "auto", marginRight: "auto" }} >
             <CardHeader
                 title={props.title}
                 subheader={props.technologies}
-                sx={{ textAlign: "center" }}
+                sx={{ textAlign: "center", backgroundColor: "black", color: "white" }}
             />
-            <CardMedia
-                component="img"
-                image={props.img}
-                sx={{ padding: "5px" }}
-            />
-            <CardContent sx={{ textAlign: "center" }}>
-                <Typography variant="body2">
-                    {props.description}
-                </Typography>
-                <Button>
-                   <Link href={props.repo}>Repo</Link>
-                </Button>
-                <Button>
-                   <Link href={props.deployed}>Deployed App</Link> 
-                </Button>
-            </CardContent>
+            <Grid container spacing={2}>
+                <Grid item xs={12} md={6}>
+                    <CardMedia
+                        component="img"
+                        image={props.img}
+                        sx={{ padding: "5px" }}
+                        alt="Project Photo"
+                        height="200"
+                        width="300"
+                    />
+                </Grid>
+                <Grid item xs={12} md={6}>
+                    <CardContent sx={{ textAlign: "center", paddingTop: "5%", backgroundColor: "lightGray", height: "100%" }}>
+                        <Typography variant="body2">
+                            {props.description}
+                        </Typography>
+                        <Button>
+                            <Link href={props.repo}>Repo</Link>
+                        </Button>
+                        <Button>
+                            <Link href={props.deployed}>Deployed App</Link>
+                        </Button>
+                    </CardContent>
+                </Grid>
+            </Grid>
         </Card>
     );
 };

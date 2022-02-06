@@ -16,13 +16,13 @@ const Projects = () => {
             alignItems: "center",
             borderRadius: "5px"
         }}>
-            <Typography variant="h4" sx={{ textAlign: "center" }}>
+            <Typography variant="h4" sx={{ textAlign: "center", padding: "10px" }}>
                 <Typed strings={["Projects"]} typeSpeed={60} />
             </Typography>
-            <Grid container spacing={4} sx={{ padding: "10px" }}>
+            <Grid container spacing={2} sx={{ padding: "10px" }}>
                 {projectsData.map((project, index) => {
                     return (
-                        <Grid item key={index} xs={12} sm={6} md={4}>
+                        <Grid item key={index} xs={12} sm={12} md={12}>
                             <ProjectCard
                                 img={project.img}
                                 title={project.title}
