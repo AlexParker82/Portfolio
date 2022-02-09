@@ -10,6 +10,7 @@ https://alex-parker-portfolio.herokuapp.com/
 
 ## Contributors
 Alex Parker
+
 Background image by Hasan Albari
 
 ## Questions
