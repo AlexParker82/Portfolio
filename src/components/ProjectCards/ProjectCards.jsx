@@ -26,10 +26,10 @@ const ProjectCard = (props) => {
                             {props.description}
                         </Typography>
                         <Button>
-                            <Link href={props.repo}>Repo</Link>
+                            <Link href={props.repo} target="_blank" rel="noopener">Repo</Link>
                         </Button>
                         <Button>
-                            <Link href={props.deployed}>Deployed App</Link>
+                            <Link href={props.deployed} target="_blank" rel="noopener">Deployed App</Link>
                         </Button>
                     </CardContent>
                 </Grid>

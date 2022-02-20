@@ -1,12 +1,5 @@
 const projectsData = [
     {
-        img: "./assets/images/kanwaye.png",
-        title: "Kan(way)e",
-        description: "A new way to find your favorite music! Uses Napster API, Kanye.rest API, Materialize, and jQuery to combine a music search engine with an entertaining Kanye West quote generator.",
-        repo: "https://github.com/kelley-mcd/STANK-Music",
-        live: "https://kelley-mcd.github.io/STANK-Music/",
-    },
-    {
         img: "./assets/images/persist.png",
         title: "Persist",
         description: "Our main motivation for making Persist was to have a fool-proof day planner that is so simple, easy to use, and sleek that you are left with no excuses not to use it and not have your days planned out and organized. You should never miss another appointment or date again.",
