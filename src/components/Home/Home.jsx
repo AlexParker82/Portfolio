@@ -1,6 +1,5 @@
 import React from "react";
 import { Box, Typography, Link } from "@mui/material";
-import Typed from "react-typed";
 
 const Home = () => {
     return (
@@ -21,7 +20,7 @@ const Home = () => {
                 Welcome to my Portfolio Page
             </Typography>
             <Typography variant="body1" sx={{ textAlign: "center", marginTop: "10px" }}>Here you can find some information about me, a few of the projects I have worked
-                on, and a link to my resume.  I hope you enjoy your time here! Contact me with any of these methods:
+                on, and a link to my resume.  This site is a work in progress so apologies if it is in an unfinished state when you visit.  I hope you enjoy your time here! Contact me with any of these methods:
                 <br></br>
                 <br></br>
                 <Link variant="inherit" underline="none" href="https://github.com/AlexParker82" target="_blank" rel="noopener">GitHub</Link>
