@@ -2,7 +2,7 @@ const projectsData = [
     {
         img: "./assets/images/reddit-clone.png",
         title: "Reddit Clone",
-        description: "Our main motivation for making Persist was to have a fool-proof day planner that is so simple, easy to use, and sleek that you are left with no excuses not to use it and not have your days planned out and organized. You should never miss another appointment or date again.",
+        description: "Building a Reddit clone using NextJS, ChakraUI and Firebase.",
         repo: "https://github.com/AlexParker82/reddit-clone",
         live: "https://reddit-clone-gnvnb47lj-alexparker82.vercel.app/",
     },

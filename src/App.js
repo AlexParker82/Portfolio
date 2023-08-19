@@ -4,7 +4,6 @@ import Home from "./components/Home/Home"
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/ProjectPage/Projects";
-import About from "./components/About/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -25,7 +24,6 @@ const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/About" element={<About />} />
         <Route path="/Projects" element={<Projects />} />
       </Routes>
       <Footer />
