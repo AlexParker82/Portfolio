@@ -23,7 +23,7 @@ const Home = () => {
                 on, and a link to my resume.  This site is a work in progress so apologies if it is in an unfinished state when you visit.  I hope you enjoy your time here! Contact me with any of these methods:
                 <br></br>
                 <br></br>
-                <Link variant="inherit" underline="none" href="https://github.com/AlexParker82" target="_blank" rel="noopener">GitHub</Link>
+                <Link variant="inherit" underline="none" href="https://github.com/AlexParker82" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></Link>
                 <br></br>
                 <Link variant="inherit" underline="none" href="https://www.linkedin.com/in/alex-parker-087761219/"  target="_blank" rel="noopener">LinkedIn</Link>
                 <br></br>

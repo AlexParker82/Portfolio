@@ -1,10 +1,10 @@
 const projectsData = [
     {
-        img: "./assets/images/persist.png",
-        title: "Persist",
+        img: "./assets/images/reddit-clone.png",
+        title: "Reddit Clone",
         description: "Our main motivation for making Persist was to have a fool-proof day planner that is so simple, easy to use, and sleek that you are left with no excuses not to use it and not have your days planned out and organized. You should never miss another appointment or date again.",
-        repo: "https://github.com/OneFJef/Persist",
-        live: "https://ancient-ravine-93786.herokuapp.com/",
+        repo: "https://github.com/AlexParker82/reddit-clone",
+        live: "https://reddit-clone-gnvnb47lj-alexparker82.vercel.app/",
     },
     {
         img: "./assets/images/tech_blog.png",

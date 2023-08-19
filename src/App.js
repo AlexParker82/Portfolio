@@ -7,8 +7,6 @@ import Projects from "./components/ProjectPage/Projects";
 import About from "./components/About/About";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-
-
 const App = () => {
 
   useEffect(() => {
